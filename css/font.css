@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Anuphan Regular";
+    src: url("../plugins/fonts/Anuphan-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Quicksand";
+    src: url("../plugins/fonts/Quicksand-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url("../plugins/fonts/Raleway-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Raleway-Italic";
+    src: url("../plugins/fonts/Raleway-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "MontserratAlternates-Regular";
+    src: url("../plugins/fonts/MontserratAlternates-Regular.ttf");
+}
+@font-face {
+    font-family: "MontserratAlternates-Italic";
+    src: url("../plugins/fonts/MontserratAlternates-Italic.ttf");
+}
+@font-face {
+    font-family: "MavenPro";
+    src: url("../plugins/fonts/MavenPro-VariableFont_wght.ttf");
+}
+

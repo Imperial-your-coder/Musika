@@ -1,0 +1,72 @@
+body {
+    background-image: url("../img/back.gif");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+a{
+    
+    color: #333362;
+
+}
+b{font-family: "Anuphan Regular";}
+.cover{
+  backdrop-filter: blur(10px);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.sphere{height: 80vh;margin: auto;}
+ .align-row-center-y{display: flex; flex-direction: row; align-items: center;}
+ .align-simple-center{display: flex; justify-content: center; align-items: center;}
+ .disc-tamp
+ {
+     height: 80%;
+     width: 100%;
+     overflow: hidden;
+ }
+ .center{
+    width: 150%;
+    animation: spin 5s linear infinite;
+}
+
+ .disc-tamp img
+ {
+     width: 70%;
+     border: 1em solid transparent;
+     border-radius: 50%;
+     background: linear-gradient(white, white) padding-box,
+     linear-gradient(60deg, #00008b, #ffae00, #ff4800) border-box;
+     box-sizing: border-box;
+     box-shadow: 0px 0px 15px 0 #000000aa;
+     cursor: pointer;
+ }
+ .disc-hole
+ {
+     position: absolute;
+     width: 4vh;
+     height: 4vh;
+     border: 0.5em solid transparent;
+     border-radius: 50%;
+     background: linear-gradient(#e4e4e4, #e4e4e4) padding-box,
+     linear-gradient(60deg, #00008b, #ffae00, #ff4800) border-box;
+ }
+ .previews-row
+ {
+     left: 0;
+ }
+ .canvas{width: 100vw; height: 100vh; top: 0; left: 0; position: fixed;}
+
+
+ /*@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}*/
